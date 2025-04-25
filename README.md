@@ -51,6 +51,13 @@ npm run lint
 
 The server will start on port 4000 by default. Access the GraphQL playground at http://localhost:4000
 
+## Authentication
+
+To authenticate requests:
+
+1. Include an Authorization header with your requests
+2. Format: Bearer your-token
+
 ## Project Structure
 
 graphql-api-server/
@@ -114,13 +121,6 @@ The resolvers.js implements:
 - Field resolvers for relationship fields
 - Custom scalar handling
 - Data fetching through context's data sources
-
-## Authentication
-
-To authenticate requests:
-
-1. Include an Authorization header with your requests
-2. Format: Bearer <your-token>
 
 ## Query Examples
 
