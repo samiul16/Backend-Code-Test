@@ -1,0 +1,27 @@
+{
+  "name": "graphql-api-server",
+  "version": "1.0.0",
+  "description": "GraphQL API Server with Bearer Token Authentication",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@apollo/server": "^4.9.5",
+    "@graphql-tools/schema": "^10.0.23",
+    "apollo-server-errors": "^3.3.1",
+    "graphql": "^16.8.1",
+    "graphql-tag": "^2.12.6",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.25.1",
+    "eslint": "^9.25.1",
+    "globals": "^16.0.0",
+    "nodemon": "^3.0.1"
+  }
+}
