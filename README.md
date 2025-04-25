@@ -58,6 +58,9 @@ To authenticate requests:
 1. Include an Authorization header with your requests
 2. Format: Bearer your-token
 
+To generate a token:
+(Run from terminal): node generateToken.js
+
 ## Project Structure
 
 graphql-api-server/
